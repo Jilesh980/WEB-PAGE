@@ -1,0 +1,47 @@
+<div4>
+    <form action="https://httpbin.org/post" id="users" method="POST" style="border: 2px solid ;">
+        <body>
+            
+        
+     Name: <input type="text" placeholder="Enter Name"><br><br>
+
+    Email id: <input type="email" name="email-id" placeholder="Enter Email"><br><br>
+    <br>
+    Address: <input type="text" name="adress" placeholder="Enter Adress"><br><br>
+    City:<input list="city" name="city" placeholder="Enter city">
+    <datalist id="city" > 
+        <option value="Brampton">
+        <option value="Calgary">
+        <option value="Toronto">
+        <option value="Montreal">
+        <option value="kitchener">           
+    </datalist>
+    <br>Password: <input type="password" placeholder="Enter Password"><br>
+    <label>ZIP Code:</label><input id="zipcode" class="zipcode" type="text" placeholder="L4C 2N3" value="" required pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" title="Six digit zip code" /><br>
+    <input type="radio" name="j" value="Question"> Question <br>
+    <input type="radio" name="j" value="Comment"> Comment <br>
+    <input type="radio" name="j" value="Hiring"> Hiring <br>
+    <textarea rows="5" cols="45" name="comment" form="userform" placeholder="Enter Message"></textarea><br>
+    <script type="text/javascript">
+        function ShowHideDiv() {
+            var chkYes = document.getElementById("chkYes");
+            var dvPassport = document.getElementById("dvHiring");
+            dvHiring.style.display = chkYes.checked ? "block" : "none";
+        }
+    </script>
+    <label for="hiring">
+        <input type="radio" id="chkYes" name="chkHiring" onclick="ShowHideDiv()"/>
+        Hiring
+    </label>
+    <hr/>
+    <div id="dvHiring" style="display: none">
+        Enter the hourly rate:
+        <input type="text" id="txtPassportNumber"/>
+    </div>
+     <br>
+    <textarea id="textareaspace" name="enquiry" class="textarea"></textarea><br>
+    Phone Number:<input type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}" required>
+    <br><input type="button" value="submit">
+</body>
+</form>
+</div4>

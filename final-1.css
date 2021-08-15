@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap');
+@import url('https://fontawesome.com/');
+body{
+    background-color: rgb(73, 71, 71);
+    background-image: url('https://images.unsplash.com/photo-1522441815192-d9f04eb0615c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1782&q=80');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 1000px;
+    overflow-x: hidden;
+}
+.bg {
+    background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+    
+    background-repeat: no-repeat;
+    width: 1280px;
+    height: 830px;
+}
+h1 {
+    margin: auto;
+    position: relative;
+    left: 840px;
+    bottom: 270px;
+    font-size: 55px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    color: azure;
+}
+h1:hover{
+    transform: scale(1.0);
+    font-size: 30px;
+}
+
+h2 {
+    position: relative;
+    left: 830px;
+    bottom: 260px;
+    font-size: 18px;
+    color: rgb(240, 219, 124);
+}
+
+button {
+    
+    border-radius: 6px;
+    color: rgb(85, 82, 82);
+    display: inline-block;
+    cursor: pointer;
+    transition:all .5s ease-in-out;
+    position: relative;
+    left: 825px;
+    top: -199px;
+    padding: 10px 10px 10px 10px;
+    
+}
+button:hover {
+    background:white;
+  color:#f36969;
+}
+
+hr {
+    position: relative;
+    top: -130px;
+}
+
+h3 {
+    background-color: rgb(76, 106, 172);
+    width: 380px;
+    position: relative;
+    left: 410px;
+}
+
+h4 {
+    position: relative;
+    left: 830px;
+    bottom: 160px;
+    background-color: rgb(247, 59, 59);
+    width: 280px;
+    
+}
+
+p {
+    font-size:130%;
+        
+}
+
+ li {
+
+    list-style: none;
+    position: relative;
+    left: 830px;
+    bottom: 170px;
+}
+
+
+h6 {
+    position: relative;
+    left: 560px;
+    bottom:180px;
+}
+
+p2 {
+    position: relative;
+    left: 90px;
+    bottom: 160px;
+    
+    transition: width 2s;
+    border: 2px solid;
+}
+p2:hover {
+    border-bottom: 2px dashed rgb(3, 39, 240);
+}
+h6 {
+    background-color: #f36969;
+    width: 160px;
+}
+
+
+div2 li {
+    position: relative;
+    left: 520px;
+    bottom: 200px;
+    border: 3px solid blue;
+    width: 120px;
+}
+div2 li:hover{
+    transform:rotate(6deg);
+}
+
+div2 p {
+    position: relative;
+    left: 520px;
+    bottom: 208px;
+    font-size: 18px;
+    border: 4px solid rgb(211, 146, 49);
+    width: 660px;
+    padding: 2%;
+    font-family: Copperplate, Papyrus, fantasy;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(143, 143, 226) 0%, rgba(221,221,255,1) 35%, rgba(0,212,255,1) 100%);
+}
+div2 p:hover{
+    background:#53eaab;
+}
+
+h7 {
+    position: relative;
+    left: 90px;
+    bottom: 120px;
+    transition: width 2s;
+    border: 2px solid;
+}
+h7:hover {
+    border-bottom: 2px dashed blue;
+}
+
+div3 li {
+    position: relative;
+    border: 3px solid blue;
+    padding: 0px;
+    width: 120px;
+    left: 520px;
+    bottom: 160px;
+}
+div3 li:hover {
+    transform: rotate(6deg);
+}
+
+div3 p {
+    position: relative;
+    font-size: 18px;
+    left: 520px;
+    bottom: 165px;
+    border: 4px solid rgb(211, 146, 49);
+    width: 660px;
+    padding: 2%;
+    font-family: Copperplate, Papyrus, fantasy;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(109, 109, 241) 0%, rgba(221,221,255,1) 35%, rgb(120, 232, 255) 100%);
+
+}
+div3 p:hover{
+    background:#f060d1;
+}
+
+a{   position: relative;
+    left: 500px;
+    bottom: 90px;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 2px ;
+    text-decoration: none;
+}
